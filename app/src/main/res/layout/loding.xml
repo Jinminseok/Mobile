@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/loginView"
         android:layout_width="277dp"
         android:layout_height="256dp"
         app:layout_constraintEnd_toEndOf="parent"
