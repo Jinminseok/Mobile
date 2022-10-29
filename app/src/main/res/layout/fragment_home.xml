@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/homelogo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/logo2" />
+
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/fuldown" />
+
+    <Button
+        android:id="@+id/Todaybutton"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="282dp"
+        android:backgroundTint="@color/mint"
+        android:text="오늘의 운동 기록"
+        android:textColor="@color/gray"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/programbutton"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="203dp"
+        android:backgroundTint="@color/mint"
+        android:text="맞춤 운동 프로그램"
+        android:textColor="@color/gray"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
