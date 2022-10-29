@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Record">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="313dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/logo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/weighttxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="체중"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="127dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="체중"
+        android:textColor="@color/gray"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/muscletxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="근육량"
+        android:textColor="@color/gray"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <TextView
+        android:id="@+id/fattxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="체지방"
+        android:textColor="@color/gray"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
