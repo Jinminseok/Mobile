@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Breakdown">
+
+    <ImageView
+        android:id="@+id/breakimageView"
+        android:layout_width="313dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/logo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/breaktxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오늘의 운동내역"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="107dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/eventtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:text="종목"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="181dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/weighttextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="중량"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="181dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/counttextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="횟수"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="181dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/settextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="세트"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="181dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_for_circle_button"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
